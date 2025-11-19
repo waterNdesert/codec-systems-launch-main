@@ -6,7 +6,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { toast } from "sonner";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import contactImage from "@/assets/contact-illustration.png";
+import contactImage from "@/assets/Pages/headset.png";
 
 const Contact = () => {
   const [formData, setFormData] = useState({

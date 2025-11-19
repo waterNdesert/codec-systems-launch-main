@@ -1,31 +1,30 @@
-import AeroContractorsLogo from "@/assets/AeroContractors.png";
-import DeloitteLogo from "@/assets/Deloitte.png";
-import VentureGardenLogo from "@/assets/ventureGarden.png";
-import EtranzactLogo from "@/assets/etranzact.png";
-import AveonLogo from "@/assets/aveonoffshore.png";
-import BanwoLogo from "@/assets/BanwoandIghodalo.png";
-import CartterLogo from "@/assets/cartterbiggs.png";
+import AeroContractorsLogo from "@/assets/Clients/AeroContractors.png";
+import DeloitteLogo from "@/assets/Clients/Deloitte.png";
+import VentureGardenLogo from "@/assets/Clients/ventureGarden.png";
+import EtranzactLogo from "@/assets/Clients/etranzact.png";
+import AveonLogo from "@/assets/Clients/aveonoffshore.png";
+import BanwoLogo from "@/assets/Clients/BanwoandIghodalo.png";
+import CartterLogo from "@/assets/Clients/cartterbiggs.png";
+import AlatLogo from "@/assets/Clients/alat.png";
+import FmdqLogo from "@/assets/Clients/fmdq.png";
+import GalaxyLogo from "@/assets/Clients/galaxybackbone.png";
 
 const clients = [
   { name: "Aero Contractors", logo: AeroContractorsLogo },
   { name: "Deloitte Nigeria", logo: DeloitteLogo },
   { name: "V Garden (VGG)", logo: VentureGardenLogo },
   { name: "Deloitte Ghana", logo: DeloitteLogo },
-  { name: "Alat", logo: "https://via.placeholder.com/150x150?text=Alat" },
-  { name: "Galaxy", logo: "https://via.placeholder.com/150x150?text=Galaxy" },
+  { name: "Alat", logo: AlatLogo },
+  { name: "Galaxy", logo: GalaxyLogo },
   {
     name: "Etranzact",
     logo: EtranzactLogo,
   },
   {
-    name: "Utomeedics",
-    logo: "https://via.placeholder.com/150x150?text=Utomeedics",
-  },
-  {
     name: "Banwo & Ighodalo",
     logo: BanwoLogo,
   },
-  { name: "FMDQ Group", logo: "https://via.placeholder.com/150x150?text=FMDQ" },
+  { name: "FMDQ Group", logo: FmdqLogo },
   {
     name: "Aveon Offshore",
     logo: AveonLogo,

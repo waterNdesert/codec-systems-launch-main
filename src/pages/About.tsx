@@ -3,13 +3,13 @@ import { Button } from "@/components/ui/button";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Team from "@/components/Team";
-import aboutImage from "@/assets/about-illustration.png";
+import aboutImage from "@/assets/Pages/about-illustration.png";
 
 const About = () => {
   return (
     <div className="min-h-screen bg-white">
       <Navbar />
-      
+
       <main className="pt-32 pb-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -31,33 +31,34 @@ const About = () => {
 
               <div className="space-y-4 text-lg text-codec-mediumGray leading-relaxed">
                 <p>
-                  TheCodec Systems Limited has been at the forefront of innovation in
-                  telecommunications and fintech for over two decades. Our commitment
-                  to excellence has made us a trusted partner for organizations across
-                  Africa.
+                  TheCodec Systems Limited has been at the forefront of
+                  innovation in telecommunications and fintech for over two
+                  decades. Our commitment to excellence has made us a trusted
+                  partner for organizations across Africa.
                 </p>
 
                 <p>
                   We specialize in voice verification systems, multichannel
-                  communication platforms, and payment solutions that drive business
-                  growth. Our team of experts combines deep technical knowledge with
-                  practical industry experience to deliver solutions that truly work.
+                  communication platforms, and payment solutions that drive
+                  business growth. Our team of experts combines deep technical
+                  knowledge with practical industry experience to deliver
+                  solutions that truly work.
                 </p>
 
                 <p>
-                  From small businesses to large enterprises, we've helped countless
-                  organizations transform their communication infrastructure and
-                  payment systems. Our custom-built solutions like Recalo, Sivvar, and
-                  Verivo are designed to meet the unique challenges of the African
-                  market.
+                  From small businesses to large enterprises, we've helped
+                  countless organizations transform their communication
+                  infrastructure and payment systems. Our custom-built solutions
+                  like Recalo, Sivvar, and Verivo are designed to meet the
+                  unique challenges of the African market.
                 </p>
 
                 <p>
                   Our consultancy services extend beyond implementation. We work
-                  closely with clients to understand their specific needs and provide
-                  ongoing support to ensure long-term success. With TheCodec Systems,
-                  you're not just getting a service provider – you're gaining a
-                  strategic partner committed to your growth.
+                  closely with clients to understand their specific needs and
+                  provide ongoing support to ensure long-term success. With
+                  TheCodec Systems, you're not just getting a service provider –
+                  you're gaining a strategic partner committed to your growth.
                 </p>
               </div>
 
@@ -79,14 +80,16 @@ const About = () => {
               Powered by <span className="text-primary">Asterisk</span>
             </h2>
             <p className="text-lg text-codec-mediumGray leading-relaxed">
-              Our team comprises certified experts in Asterisk, the world's leading open-source 
-              telephony framework. This powerful platform forms the backbone of many of our 
-              products, including Recalo and our IP-PBX solutions. With over two decades of 
-              experience in Asterisk development and customization, we deliver robust, scalable 
-              communication systems that power businesses across Africa. From database-driven 
-              IVR systems to advanced call center solutions, our Asterisk expertise enables us 
-              to build tailored telecommunications infrastructure that meets the unique needs 
-              of modern enterprises.
+              Our team comprises certified experts in Asterisk, the world's
+              leading open-source telephony framework. This powerful platform
+              forms the backbone of many of our products, including Recalo and
+              our IP-PBX solutions. With over two decades of experience in
+              Asterisk development and customization, we deliver robust,
+              scalable communication systems that power businesses across
+              Africa. From database-driven IVR systems to advanced call center
+              solutions, our Asterisk expertise enables us to build tailored
+              telecommunications infrastructure that meets the unique needs of
+              modern enterprises.
             </p>
           </div>
         </section>

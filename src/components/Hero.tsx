@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import heroImage from "@/assets/hero-illustration.png";
+import heroImage from "@/assets/Pages/hero-illustration.png";
 
 const Hero = () => {
   return (
@@ -14,7 +14,7 @@ const Hero = () => {
               Building Possibilities via{" "}
               <span className="text-primary">Communication Technology</span>
             </h1>
-            
+
             <p className="text-xl text-codec-mediumGray leading-relaxed">
               2 decades of excellence in voice verification, payment solutions &
               multichannel communication systems.
@@ -31,7 +31,7 @@ const Hero = () => {
                   <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
                 </Link>
               </Button>
-              
+
               <Button
                 asChild
                 size="lg"

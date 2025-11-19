@@ -1,8 +1,8 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import ProductNav from "@/components/ProductNav";
-import intellioImage from "@/assets/intelliokg.png";
-import IntellioLogo from "@/assets/e-intellio-logo.png";
+import intellioImage from "@/assets/Products/intelliokg.png";
+import IntellioLogo from "@/assets/Products/e-intellio-logo.png";
 
 const Intellio = () => {
   return (

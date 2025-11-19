@@ -1,8 +1,8 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import ProductNav from "@/components/ProductNav";
-import recaloImage from "@/assets/desktopRecallo.png";
-import RecaloLogo from "@/assets/RecalloLogo.png";
+import recaloImage from "@/assets/Products/desktopRecallo.png";
+import RecaloLogo from "@/assets/Products/RecalloLogo.png";
 
 const Recalo = () => {
   return (

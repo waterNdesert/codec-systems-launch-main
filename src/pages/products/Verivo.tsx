@@ -1,8 +1,8 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import ProductNav from "@/components/ProductNav";
-import verivoImage from "@/assets/verivoImg.png";
-import VerivoLogo from "@/assets/VerivoLogo.png";
+import verivoImage from "@/assets/Products/verivoImg.png";
+import VerivoLogo from "@/assets/Products/VerivoLogo.png";
 
 const Verivo = () => {
   return (

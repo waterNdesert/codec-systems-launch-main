@@ -1,8 +1,8 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import ProductNav from "@/components/ProductNav";
-import sivvarImage from "@/assets/fullMock.png";
-import SivvarLogo from "@/assets/sivvar.png";
+import sivvarImage from "@/assets/Products/fullMock.png";
+import SivvarLogo from "@/assets/Products/sivvar.png";
 
 const Sivvar = () => {
   return (

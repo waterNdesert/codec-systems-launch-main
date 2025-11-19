@@ -1,8 +1,8 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import ProductNav from "@/components/ProductNav";
-import recaloLiteImage from "@/assets/rc-lite-image.png";
-import RecalloLogo from "@/assets/RecalloLogo.png";
+import recaloLiteImage from "@/assets/Products/rc-lite-image.png";
+import RecalloLogo from "@/assets/Products/RecalloLogo.png";
 
 const RecaloLite = () => {
   return (
