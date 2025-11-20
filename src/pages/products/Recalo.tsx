@@ -17,7 +17,7 @@ const Recalo = () => {
               <div className="flex items-center gap-6">
                 <img
                   src={RecaloLogo}
-                  alt="Recalo logo"
+                  alt="Recallo logo"
                   loading="lazy"
                   className="h-14 w-auto"
                 />
@@ -32,11 +32,11 @@ const Recalo = () => {
 
               <div className="space-y-4 text-lg text-codec-mediumGray leading-relaxed">
                 <p>
-                  Recalo is our flagship enterprise contact center solution
+                  Recallo is our flagship enterprise contact center solution
                   designed for organizations that demand the highest level of
                   functionality and customization. Built with a powerful
-                  API-first architecture, Recalo seamlessly integrates with your
-                  existing systems.
+                  API-first architecture, Recallo seamlessly integrates with
+                  your existing systems.
                 </p>
 
                 <p>
@@ -49,9 +49,9 @@ const Recalo = () => {
                 <p>
                   Advanced features include intelligent call routing, real-time
                   analytics, call recording, quality monitoring, and
-                  comprehensive reporting dashboards. Recalo scales effortlessly
-                  from small teams to enterprise-level operations with thousands
-                  of agents.
+                  comprehensive reporting dashboards. Recallo scales
+                  effortlessly from small teams to enterprise-level operations
+                  with thousands of agents.
                 </p>
               </div>
             </div>
@@ -60,7 +60,7 @@ const Recalo = () => {
             <div className="flex justify-center">
               <img
                 src={recaloImage}
-                alt="Recalo Contact Center"
+                alt="Recallo Contact Center"
                 loading="lazy"
                 className="w-full max-w-lg h-auto levitate rounded-2xl shadow-2xl"
               />

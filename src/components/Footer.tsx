@@ -91,7 +91,7 @@ const Footer = () => {
                   to="/products/recalo"
                   className="text-white/70 hover:text-primary transition-colors hover:translate-x-1 inline-block"
                 >
-                  Recalo
+                  Recallo
                 </Link>
               </li>
               <li>
@@ -99,7 +99,7 @@ const Footer = () => {
                   to="/products/recalolite"
                   className="text-white/70 hover:text-primary transition-colors hover:translate-x-1 inline-block"
                 >
-                  RecaloLite
+                  RecalloLite
                 </Link>
               </li>
               <li>
@@ -138,7 +138,7 @@ const Footer = () => {
                 className="flex items-center gap-2 text-white/70"
               >
                 <Phone size={16} className="text-primary" />
-                <span>+234 123 456 7890</span>
+                <span>02013302933</span>
               </motion.li>
               <motion.li
                 whileHover={{ x: 5 }}

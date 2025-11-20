@@ -1,4 +1,11 @@
-import { Phone, CreditCard, Radio, Lightbulb, Network, Headphones } from "lucide-react";
+import {
+  Phone,
+  CreditCard,
+  Radio,
+  Lightbulb,
+  Network,
+  Headphones,
+} from "lucide-react";
 import { motion } from "framer-motion";
 
 const services = [
@@ -6,7 +13,7 @@ const services = [
     icon: Phone,
     title: "Call/Contact Centre",
     description:
-      "Full-featured systems for SMEs & enterprises, powered by our custom solution Recalo, with a light version RecaloLite.",
+      "Full-featured systems for SMEs & enterprises, powered by our custom solution Recallo, with a light version RecalloLite.",
   },
   {
     icon: CreditCard,
@@ -74,10 +81,14 @@ const Services = () => {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-bold text-codec-black mb-4">
-            Our <span className="text-primary bg-gradient-to-r from-primary to-codec-darkGreen bg-clip-text text-transparent">Services</span>
+            Our{" "}
+            <span className="text-primary bg-gradient-to-r from-primary to-codec-darkGreen bg-clip-text text-transparent">
+              Services
+            </span>
           </h2>
           <p className="text-xl text-codec-mediumGray max-w-2xl mx-auto">
-            Comprehensive communication and fintech solutions tailored to your business needs
+            Comprehensive voice and communication solutions tailored to your
+            business needs
           </p>
         </motion.div>
 

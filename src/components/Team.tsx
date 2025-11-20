@@ -23,7 +23,7 @@ const team = [
   },
   {
     name: "Tobi Ololade",
-    role: "Lead Fintech Consultant",
+    role: "Lead Voice Solutions Consultant",
     image: TobiOloladeImg,
   },
   {
@@ -72,10 +72,13 @@ const Team = () => {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-bold text-codec-black mb-4">
-            Meet Our <span className="text-primary bg-gradient-to-r from-primary to-codec-darkGreen bg-clip-text text-transparent">Team</span>
+            Meet Our{" "}
+            <span className="text-primary bg-gradient-to-r from-primary to-codec-darkGreen bg-clip-text text-transparent">
+              Team
+            </span>
           </h2>
           <p className="text-xl text-codec-mediumGray max-w-2xl mx-auto">
-            Experienced professionals driving innovation in fintech and
+            Experienced professionals driving innovation in voice solutions and
             communications
           </p>
         </motion.div>
@@ -110,7 +113,9 @@ const Team = () => {
                 <h3 className="text-2xl font-bold text-codec-black mb-2 relative z-10 group-hover:text-primary transition-colors">
                   {member.name}
                 </h3>
-                <p className="text-primary font-medium relative z-10">{member.role}</p>
+                <p className="text-primary font-medium relative z-10">
+                  {member.role}
+                </p>
               </div>
             </motion.div>
           ))}

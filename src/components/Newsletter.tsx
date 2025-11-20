@@ -35,10 +35,14 @@ const Newsletter = () => {
           Stay Updated with Our Newsletter
         </h2>
         <p className="text-xl text-white/90 mb-8">
-          Get the latest insights on fintech and communication technology
+          Get the latest insights on voice solutions and communication
+          technology
         </p>
 
-        <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row gap-4 max-w-xl mx-auto">
+        <form
+          onSubmit={handleSubmit}
+          className="flex flex-col sm:flex-row gap-4 max-w-xl mx-auto"
+        >
           <Input
             type="email"
             placeholder="Enter your email"

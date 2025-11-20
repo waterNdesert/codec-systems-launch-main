@@ -26,16 +26,16 @@ const About = () => {
             {/* Content */}
             <div className="order-1 lg:order-2 space-y-6">
               <h1 className="text-5xl md:text-6xl font-bold text-codec-black leading-tight">
-                We are a <span className="text-primary">Fintech</span> &
-                Consultancy Company
+                Your Voice <span className="text-primary">Solutions</span>{" "}
+                Partner
               </h1>
 
               <div className="space-y-4 text-lg text-codec-mediumGray leading-relaxed">
                 <p>
                   TheCodec Systems Limited has been at the forefront of
-                  innovation in telecommunications and fintech for over two
-                  decades. Our commitment to excellence has made us a trusted
-                  partner for organizations across Africa.
+                  innovation in telecommunications and voice solutions for over
+                  two decades. Our commitment to excellence has made us a
+                  trusted partner for organizations across Africa.
                 </p>
 
                 <p>
@@ -50,7 +50,7 @@ const About = () => {
                   From small businesses to large enterprises, we've helped
                   countless organizations transform their communication
                   infrastructure and payment systems. Our custom-built solutions
-                  like Recalo, Sivvar, and Verivo are designed to meet the
+                  like Recallo, Sivvar, and Verivo are designed to meet the
                   unique challenges of the African market.
                 </p>
 
@@ -78,13 +78,22 @@ const About = () => {
         <section className="mt-32 bg-codec-lightGray py-20 px-8 rounded-3xl">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-4xl md:text-5xl font-bold text-codec-black mb-6">
-              Experts in <span className="text-primary bg-gradient-to-r from-primary to-codec-darkGreen bg-clip-text text-transparent">Asterisk, FreeSWITCH, Kamailio & OpenSIPS</span>
+              Experts in{" "}
+              <span className="text-primary bg-gradient-to-r from-primary to-codec-darkGreen bg-clip-text text-transparent">
+                Asterisk, FreeSWITCH, Kamailio & OpenSIPS
+              </span>
             </h2>
             <p className="text-xl text-codec-mediumGray mb-4 font-semibold">
               Powering modern telephony with 20+ years of innovation.
             </p>
             <p className="text-lg text-codec-mediumGray leading-relaxed">
-              Our team is highly experienced in leading open‑source telephony platforms such as Asterisk, FreeSWITCH, Kamailio, and OpenSIPS. With over two decades of hands‑on development and customization, we build robust, scalable communication systems from IP‑PBX solutions and IVR platforms to advanced call center infrastructures, tailored to meet the needs of modern enterprises across Africa.
+              Our team is highly experienced in leading open‑source telephony
+              platforms such as Asterisk, FreeSWITCH, Kamailio, and OpenSIPS.
+              With over two decades of hands‑on development and customization,
+              we build robust, scalable communication systems from IP‑PBX
+              solutions and IVR platforms to advanced call center
+              infrastructures, tailored to meet the needs of modern enterprises
+              across Africa.
             </p>
           </div>
         </section>

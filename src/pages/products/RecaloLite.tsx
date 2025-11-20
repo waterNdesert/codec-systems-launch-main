@@ -17,7 +17,7 @@ const RecaloLite = () => {
               <div className="flex items-center gap-6">
                 <img
                   src={RecalloLogo}
-                  alt="RecaloLite logo"
+                  alt="RecalloLite logo"
                   loading="lazy"
                   className="h-14 w-auto"
                 />
@@ -32,7 +32,7 @@ const RecaloLite = () => {
 
               <div className="space-y-4 text-lg text-codec-mediumGray leading-relaxed">
                 <p>
-                  RecaloLite brings essential contact center capabilities to
+                  RecalloLite brings essential contact center capabilities to
                   small and medium-sized businesses without the complexity of
                   enterprise solutions. Perfect for teams just starting their
                   customer service journey or those who need core functionality
@@ -40,18 +40,18 @@ const RecaloLite = () => {
                 </p>
 
                 <p>
-                  Despite its "lite" designation, RecaloLite doesn't compromise
+                  Despite its "lite" designation, RecalloLite doesn't compromise
                   on quality. You get reliable call routing, basic IVR
                   functionality, call queuing, and essential reporting features
                   – everything you need to deliver excellent customer service.
                 </p>
 
                 <p>
-                  Quick to deploy and easy to use, RecaloLite gets your team up
+                  Quick to deploy and easy to use, RecalloLite gets your team up
                   and running in days, not weeks. The intuitive interface
                   requires minimal training, and our straightforward pricing
                   makes it accessible for businesses of all sizes. As your needs
-                  grow, upgrading to the full Recalo platform is seamless.
+                  grow, upgrading to the full Recallo platform is seamless.
                 </p>
               </div>
             </div>
@@ -60,7 +60,7 @@ const RecaloLite = () => {
             <div className="flex justify-center">
               <img
                 src={recaloLiteImage}
-                alt="RecaloLite Contact Center"
+                alt="RecalloLite Contact Center"
                 loading="lazy"
                 className="w-full max-w-lg h-auto levitate rounded-2xl shadow-2xl"
               />

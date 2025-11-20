@@ -14,8 +14,8 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const products = [
-    { name: "Recalo", path: "/products/recalo" },
-    { name: "RecaloLite", path: "/products/recalolite" },
+    { name: "Recallo", path: "/products/recalo" },
+    { name: "RecalloLite", path: "/products/recalolite" },
     { name: "Sivvar", path: "/products/sivvar" },
     { name: "Intellio", path: "/products/intellio" },
     { name: "Verivo", path: "/products/verivo" },
