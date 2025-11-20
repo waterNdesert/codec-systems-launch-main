@@ -18,6 +18,7 @@ const Verivo = () => {
                 <img
                   src={VerivoLogo}
                   alt="Verivo logo"
+                  loading="lazy"
                   className="h-14 w-auto"
                 />
                 <h1 className="text-5xl md:text-6xl font-bold text-codec-black leading-tight">
@@ -70,7 +71,8 @@ const Verivo = () => {
             <div className="flex justify-center">
               <img
                 src={verivoImage}
-                alt="Verivo OTP Solution"
+                alt="Verivo Payment Gateway"
+                loading="lazy"
                 className="w-full max-w-lg h-auto levitate rounded-2xl shadow-2xl"
               />
             </div>

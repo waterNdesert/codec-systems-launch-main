@@ -18,6 +18,7 @@ const RecaloLite = () => {
                 <img
                   src={RecalloLogo}
                   alt="RecaloLite logo"
+                  loading="lazy"
                   className="h-14 w-auto"
                 />
                 <h1 className="text-5xl md:text-6xl font-bold text-codec-black leading-tight">
@@ -60,6 +61,7 @@ const RecaloLite = () => {
               <img
                 src={recaloLiteImage}
                 alt="RecaloLite Contact Center"
+                loading="lazy"
                 className="w-full max-w-lg h-auto levitate rounded-2xl shadow-2xl"
               />
             </div>

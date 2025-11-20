@@ -132,6 +132,7 @@ const Contact = () => {
               <img
                 src={contactImage}
                 alt="Contact Us"
+                loading="lazy"
                 className="w-full max-w-lg h-auto levitate"
               />
             </div>

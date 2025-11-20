@@ -18,6 +18,7 @@ const About = () => {
               <img
                 src={aboutImage}
                 alt="About TheCodec Systems"
+                loading="lazy"
                 className="w-full h-auto levitate rounded-2xl shadow-2xl"
               />
             </div>
@@ -73,23 +74,17 @@ const About = () => {
           </div>
         </div>
 
-        {/* Asterisk Expertise Section */}
+        {/* Open-Source Telephony Expertise Section */}
         <section className="mt-32 bg-codec-lightGray py-20 px-8 rounded-3xl">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-4xl md:text-5xl font-bold text-codec-black mb-6">
-              Powered by <span className="text-primary">Asterisk</span>
+              Experts in <span className="text-primary bg-gradient-to-r from-primary to-codec-darkGreen bg-clip-text text-transparent">Asterisk, FreeSWITCH, Kamailio & OpenSIPS</span>
             </h2>
+            <p className="text-xl text-codec-mediumGray mb-4 font-semibold">
+              Powering modern telephony with 20+ years of innovation.
+            </p>
             <p className="text-lg text-codec-mediumGray leading-relaxed">
-              Our team comprises certified experts in Asterisk, the world's
-              leading open-source telephony framework. This powerful platform
-              forms the backbone of many of our products, including Recalo and
-              our IP-PBX solutions. With over two decades of experience in
-              Asterisk development and customization, we deliver robust,
-              scalable communication systems that power businesses across
-              Africa. From database-driven IVR systems to advanced call center
-              solutions, our Asterisk expertise enables us to build tailored
-              telecommunications infrastructure that meets the unique needs of
-              modern enterprises.
+              Our team is highly experienced in leading open‑source telephony platforms such as Asterisk, FreeSWITCH, Kamailio, and OpenSIPS. With over two decades of hands‑on development and customization, we build robust, scalable communication systems from IP‑PBX solutions and IVR platforms to advanced call center infrastructures, tailored to meet the needs of modern enterprises across Africa.
             </p>
           </div>
         </section>

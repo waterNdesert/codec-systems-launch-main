@@ -17,7 +17,8 @@ const Intellio = () => {
               <div className="flex items-center gap-6">
                 <img
                   src={IntellioLogo}
-                  alt="e-Intellio logo"
+                  alt="Intellio logo"
+                  loading="lazy"
                   className="h-14 w-auto"
                 />
                 <h1 className="text-5xl md:text-6xl font-bold text-codec-black leading-tight">
@@ -60,7 +61,8 @@ const Intellio = () => {
             <div className="flex justify-center">
               <img
                 src={intellioImage}
-                alt="e-Intellio Traffic & Security"
+                alt="Intellio IVR System"
+                loading="lazy"
                 className="w-full max-w-lg h-auto levitate rounded-2xl shadow-2xl"
               />
             </div>

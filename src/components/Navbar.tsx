@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Menu, X, ChevronDown } from "lucide-react";
+import { motion, AnimatePresence } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import {
   DropdownMenu,
@@ -21,7 +22,12 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="fixed top-0 w-full bg-white shadow-md z-50">
+    <motion.nav
+      initial={{ y: -100, opacity: 0 }}
+      animate={{ y: 0, opacity: 1 }}
+      transition={{ duration: 0.6, ease: "easeOut" }}
+      className="fixed top-0 w-full bg-white/80 backdrop-blur-lg shadow-lg border-b border-white/20 z-50"
+    >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
@@ -29,6 +35,7 @@ const Navbar = () => {
             <img
               src="/logo.svg"
               alt="TheCodec Systems"
+              loading="lazy"
               className="h-12 w-auto"
             />
           </Link>
@@ -91,53 +98,61 @@ const Navbar = () => {
         </div>
 
         {/* Mobile Navigation */}
-        {isOpen && (
-          <div className="md:hidden pb-4">
-            <div className="flex flex-col space-y-4">
-              <Link
-                to="/"
-                className="text-codec-darkGray hover:text-primary transition-colors font-medium"
-                onClick={() => setIsOpen(false)}
-              >
-                Home
-              </Link>
-              <Link
-                to="/about"
-                className="text-codec-darkGray hover:text-primary transition-colors font-medium"
-                onClick={() => setIsOpen(false)}
-              >
-                About
-              </Link>
+        <AnimatePresence>
+          {isOpen && (
+            <motion.div
+              initial={{ opacity: 0, height: 0 }}
+              animate={{ opacity: 1, height: "auto" }}
+              exit={{ opacity: 0, height: 0 }}
+              transition={{ duration: 0.3 }}
+              className="md:hidden pb-4"
+            >
+              <div className="flex flex-col space-y-4">
+                <Link
+                  to="/"
+                  className="text-codec-darkGray hover:text-primary transition-colors font-medium"
+                  onClick={() => setIsOpen(false)}
+                >
+                  Home
+                </Link>
+                <Link
+                  to="/about"
+                  className="text-codec-darkGray hover:text-primary transition-colors font-medium"
+                  onClick={() => setIsOpen(false)}
+                >
+                  About
+                </Link>
 
-              {/* Mobile Products */}
-              <div className="space-y-2">
-                <span className="text-codec-darkGray font-medium">
-                  Products
-                </span>
-                {products.map((product) => (
-                  <Link
-                    key={product.path}
-                    to={product.path}
-                    className="block pl-4 text-codec-mediumGray hover:text-primary transition-colors"
-                    onClick={() => setIsOpen(false)}
-                  >
-                    {product.name}
-                  </Link>
-                ))}
+                {/* Mobile Products */}
+                <div className="space-y-2">
+                  <span className="text-codec-darkGray font-medium">
+                    Products
+                  </span>
+                  {products.map((product) => (
+                    <Link
+                      key={product.path}
+                      to={product.path}
+                      className="block pl-4 text-codec-mediumGray hover:text-primary transition-colors"
+                      onClick={() => setIsOpen(false)}
+                    >
+                      {product.name}
+                    </Link>
+                  ))}
+                </div>
+
+                <Link
+                  to="/contact"
+                  className="text-codec-darkGray hover:text-primary transition-colors font-medium"
+                  onClick={() => setIsOpen(false)}
+                >
+                  Contact
+                </Link>
               </div>
-
-              <Link
-                to="/contact"
-                className="text-codec-darkGray hover:text-primary transition-colors font-medium"
-                onClick={() => setIsOpen(false)}
-              >
-                Contact
-              </Link>
-            </div>
-          </div>
-        )}
+            </motion.div>
+          )}
+        </AnimatePresence>
       </div>
-    </nav>
+    </motion.nav>
   );
 };
 
